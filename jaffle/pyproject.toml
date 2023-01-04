@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jaffle"
+version = "0.1.0"
+description = "coolest and newest data tools"
+authors = ["Anton Peniaziev <antonpeniaziev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dagster = "^1.1.7"
+pandas = "^1.5.2"
+duckdb = "^0.6.1"
+sqlescapy = "^1.0.1"
+lxml = "^4.9.2"
+html5lib = "^1.1"
+
+[tool.poetry.group.dev.dependencies]
+localstack = "^1.2.0"
+awscli = "^1.27.42"
+awscli-local = "^0.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
