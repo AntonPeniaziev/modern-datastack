@@ -16,3 +16,4 @@ defs = Definitions(
     assets=load_assets_from_package_module(assets),
     resources={"io_manager":  DuckPondIOManager("datalake", DuckDB(DUCKDB_LOCAL_CONFIG))}
 )
+

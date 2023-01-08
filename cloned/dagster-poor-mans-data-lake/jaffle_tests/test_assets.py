@@ -14,3 +14,4 @@ def test_assets():
     top = df.loc[0]
     assert top["continent"] == "Africa"
     assert round(top["avg_pop_change"]) == 2
+
